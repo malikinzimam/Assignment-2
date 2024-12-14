@@ -5,6 +5,6 @@ void main() {
     'city': 'karachi',
     'zipcode': 75050
   };
-  var output = data.keys.where((key) => key.length==4);
+  var output = data.keys.where((key) => key.length == 4).toList();
   print(output);
 }
