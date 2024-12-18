@@ -9,5 +9,7 @@ void main() {
     "saturday",
     "sunday"
   ]);
-  print("$days");
+   days.forEach((day) {
+    print(day);
+  });
 }
