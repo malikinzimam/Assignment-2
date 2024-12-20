@@ -9,5 +9,7 @@ void main() {
     "sunday"
   ];
   days.removeLast();
-  print(days);
+  days.forEach((day) {
+    print(day);
+  });
 }
